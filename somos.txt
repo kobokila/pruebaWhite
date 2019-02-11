@@ -1,0 +1,31 @@
+/*
+
+select * from salgrade;
+
+select * from dept;
+
+select * from emp;
+
+*/
+
+SELECT * FROM emp;
+
+SELECT * FROM dept;
+
+SELECT * FROM salgrade;
+
+SELECT * FROM emp WHERE JOB='CLERK';
+
+SELECT * FROM emp WHERE JOB='CLERK' ORDER BY ENAME DESC;
+
+SELECT EMPNO, ENAME, SAL FROM emp;
+
+SELECT DNAME FROM dept;
+
+SELECT DNAME FROM dept order by DNAME DESC;
+
+SELECT DEPTNO, DNAME FROM dept order by LOCATION DESC;
+
+SELECT DEPTNO, DNAME FROM dept order by LOCATION ASC;
+
+SELECT JOB, ENAME FROM emp order by SAL;
